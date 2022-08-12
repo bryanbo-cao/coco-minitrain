@@ -2,6 +2,9 @@
 
 COCO `minitrain` is a curated mini training set (25K images ≈ 20% of `train2017`) for COCO. It is useful for hyperparameter tuning and reducing the cost of ablation experiments. `minitrain`'s object instance statistics match those of `train2017` (see the [stats page](STATS.md)).  `val2017` performance of a model trained on  `minitrain` is strongly positively correlated with the performance of the same model trained on the full set, `train2017` (see the [Performance Correlation](https://github.com/giddyyupp/coco-minitrain#performance-correlation-of-train2017-and-minitrain) section below).
 
+Go to the ```wip``` branch to see the latest changes:
+https://github.com/bryanbocao/coco-minitrain/tree/wip
+
 ## Reference
 We introduced COCO `minitrain` in our ECCV'2020 paper. Please cite it, if you use COCO `minitrain` in your work: 
 
